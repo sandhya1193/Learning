@@ -13,6 +13,7 @@ public class OrangeHRMsteps {
     public void i_launch_chrome_browser() {
    System.setProperty("webdriver.chrome.webdriver", "C:\\Users\\sandh\\Downloads\\chromedriver_win32\\chromedriver.exe");
    driver=new ChromeDriver();
+   System.out.println("ABC");
 
     }
 
